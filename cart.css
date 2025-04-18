@@ -1,0 +1,181 @@
+/* Bag Page Wrapper */
+.bag-page {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fdfbfb, #ebedee);
+  }
+  
+  /* Container for Items */
+  .bag-items-container {
+    display: inline-block;
+    width: 62%;
+    padding-right: 25px;
+    border-right: 2px dashed #ccc;
+    padding-top: 32px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Summary Section */
+  .bag-summary {
+    display: inline-block;
+    width: 34%;
+    padding: 24px 0 0 20px;
+    color: #2c3e50;
+    font-size: 14px;
+    line-height: 1.6;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Item Container */
+  .bag-item-container {
+    margin-bottom: 12px;
+    background: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .bag-item-container:hover {
+    transform: scale(1.01);
+  }
+  
+  /* Left Side Image Box */
+  .item-left-part {
+    position: absolute;
+    background: #f8f0e3;
+    height: 148px;
+    width: 111px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bag-item-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Right Content */
+  .item-right-part {
+    padding-left: 16px;
+    margin-left: 120px;
+    min-height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Return Info */
+  .return-period {
+    display: flex;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #666;
+  }
+  
+  .return-period-days {
+    font-weight: bold;
+    margin-right: 4px;
+    color: #2d8f5b;
+  }
+  
+  /* Delivery Info */
+  .delivery-details {
+    font-size: 13px;
+    margin: 6px 0;
+    color: #444;
+  }
+  
+  .delivery-details-days {
+    color: #27ae60;
+    font-weight: bold;
+  }
+  
+  /* Price Section */
+  .bag-details-container {
+    margin-bottom: 16px;
+  }
+  
+  .price-header {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 24px 0 12px;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .price-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price-item-value {
+    font-weight: 500;
+  }
+  
+  .priceDetail-base-discount {
+    color: #00b894;
+  }
+  
+  .price-footer {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 16px;
+    border-top: 2px solid #ccc;
+    color: #222;
+  }
+  
+  /* Place Order Button */
+  .btn-place-order {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(255, 65, 108, 0.3);
+  }
+  
+  .btn-place-order:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+  }
+  
+  /* Remove Icon */
+  .remove-from-cart {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 22px;
+    color: #e74c3c;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .remove-from-cart:hover {
+    transform: scale(1.2);
+  }
+  
